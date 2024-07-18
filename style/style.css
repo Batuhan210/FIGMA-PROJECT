@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-style: italic;
+} 
+
+.container1 {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.illustration {
+    width: 80%;
+}
+
+.illustration img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text {
+    width: 60%;
+    padding: 20px;
+}
+
+.text h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container-table table {
+    padding: 20px;
+    margin: 15px;
+    width: 100%;
+}
+
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section-header {
+    margin-top: 0;
+}
+
+.divider {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.coin-chart {
+    width: 50px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li.check {
+    position: relative;
+    padding-left: 30px;
+    font-size: 1.2rem;
+  }
+
+li.check:before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+    color: #007bff; /* blue color */
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
